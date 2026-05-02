@@ -1,25 +1,14 @@
-🛠️ Pro-Neovim Python IDE (Termux Optimized)
-Created by ZeronX986
-🌟 Overview
-This init.vim configuration transforms Neovim into a powerful, lightweight Integrated Development Environment (IDE) specifically optimized for Python development on mobile devices via Termux. It balances performance with professional features like LSP support and real-time debugging.
-✨ Key Features
-Smart Auto-Indentation: Automatically handles Python indentation (4-space tabs) to prevent logic errors and ensure PEP8 compliance.  
-Integrated LSP (Pyright): Provides real-time syntax checking, auto-completion, and error diagnostics as you type.  
-Pro Debugging: Full support for debugpy to trace variables and fix bugs in complex scripts.  
-Visual Excellence: Clean UI with line numbers, syntax highlighting, and custom error underlining for maximum focus.  
-📥 Installation Requirements
-To get the most out of this config on Termux, you need to install the following "engines":
-1. System Packages:
-a. pkg install nodejs python git.
-b.pip install debugpy.
-c.npm install -g pyrigh.
-2. Plugin Manager (vim-plug)
-You must have vim-plug installed to load the listed plugins.  
-4. Python Development Tools
-Run these commands to enable the LSP and Debugger features:
-For LSP (Pyright): npm install -g pyright
-For Debugging: pip install debugpy
-🚀 How to use
-Copy the init.vim file to your ~/.config/nvim/ directory.
-Open Neovim and run :PlugInstall to download the professional extensions.  
-Restart Neovim, and your Python IDE is ready!
+🚀 Neovim Python-Core Config
+By ZeronX986
+📝 Description
+A lightweight and professional Neovim configuration optimized for Python development. Built specifically for programmers who want a powerful IDE experience on Termux or mobile environments without the bloat.
+✨ Why use this config?
+Auto-Logic Indentation: Perfect 4-space tabs for Python, preventing syntax errors before they happen.
+LSP Integration: Real-time error detection and code suggestions using Pyright.
+Debugger Ready: Pre-configured for debugpy, making it easy to trace and fix complex code.
+Clean UI: Minimalist design with line numbers and clear error highlights to keep you focused.
+⚙️ Quick Setup
+To get the full power of this config, make sure you have:
+vim-plug: For managing plugins.
+Pyright: npm install -g pyright (For smart coding).
+Debugpy: pip install debugpy (For fixing bugs).
